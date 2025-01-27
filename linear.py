@@ -13,7 +13,7 @@ X = np.arange(-10.0, 10.0, 1e-2)
 print(X)
 #np.random.shuffle(X)
 y =  10.0 * X + 0.0
-print(Y)
+print(y)
 train_end = int(0.6 * len(X))
 #print (train_end)
 test_start = int(0.8 * len(X))
