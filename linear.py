@@ -13,7 +13,7 @@ X = np.arange(-10.0, 10.0, 1e-2)
 print(X)
 np.random.shuffle(X)
 
-y =  2.0 * X + 1.0
+y =  5.0 * X + 2.0
 print(y)
 train_end = int(0.6 * len(X))
 #print (train_end)
